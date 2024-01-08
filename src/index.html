@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Hello VUE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf8" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/general.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="app">
+            <h1>{{saluto}}</h1>
+
+            <img v-bind:src="immagine" alt="" />
+        </div>
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

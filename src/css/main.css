@@ -1,0 +1,19 @@
+:root {
+    --wrapper-width: 1400px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(49, 71, 181);
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
